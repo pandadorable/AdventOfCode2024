@@ -66,9 +66,9 @@ def validateField(i,j):
                             GRID_TEST[i][j] = '-'                
         nbSommet = 0
         for i in GRID_TEST:
-            print(''.join(i))
+            #print(''.join(i))
             nbSommet += i.count('+')
-        print()
+        #print()
         return area,nbSommet
     return 0,0
 
